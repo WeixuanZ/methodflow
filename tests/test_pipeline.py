@@ -1,6 +1,6 @@
-from pypeline.pipeline import PipelineMixin
-
 import pytest
+
+from methodflow.pipeline import PipelineMixin
 
 
 @pytest.fixture()

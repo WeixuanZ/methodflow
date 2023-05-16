@@ -1,8 +1,8 @@
-from pypeline.pipeline import ProcessStep, PipelineMixin
 from typing import Callable, TypeVar
 
 import pytest
 
+from methodflow.pipeline import PipelineMixin, ProcessStep
 
 T = TypeVar("T")
 
